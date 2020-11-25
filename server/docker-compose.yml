@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  postdb:
+    image: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - /var/lib/postgresql/data
+    environment:
+      POSTGRES_DATABASE: gobarber
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "123456"

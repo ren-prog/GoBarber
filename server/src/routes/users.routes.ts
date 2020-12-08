@@ -38,9 +38,16 @@ usersRouter.patch(
       avatarFilename: request.file.filename,
     });
 
-    delete user.password;
+    // Com a atualização do TypeScript, isso se faz necessário
+    const userWithoutPassword = {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      created_at: user.created_at,
+      updated_at: user.updated_at,
+    };
 
-    return response.json(user);
+    return response.json(userWithoutPassword);
   }
 );
 export default usersRouter;

@@ -4,11 +4,11 @@ import { getCustomRepository } from "typeorm";
 
 import { parseISO } from "date-fns";
 
-import AppointmentsRepository from "../Repositories/AppointmentRepository";
+import AppointmentsRepository from "@modules/appointments/repositories/AppointmentRepository";
 
-import CreateAppointmentService from "../services/CreateAppointmentService";
+import CreateAppointmentService from "@modules/appointments/services/CreateAppointmentService";
 
-import Autheticated from "../middlewares/Autheticated";
+import Autheticated from "@modules/users/infra/http/middlewares/Authenticated";
 
 const appointmentsRouter = Router();
 

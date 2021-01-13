@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1610556384309" clover="3.2.0">
-  <project timestamp="1610556384309" name="All files">
-    <metrics statements="202" coveredstatements="151" conditionals="18" coveredconditionals="17" methods="7" coveredmethods="6" elements="227" coveredelements="174" complexity="0" loc="202" ncloc="202" packages="2" files="4" classes="4"/>
+<coverage generated="1610558185641" clover="3.2.0">
+  <project timestamp="1610558185641" name="All files">
+    <metrics statements="201" coveredstatements="151" conditionals="18" coveredconditionals="17" methods="7" coveredmethods="6" elements="226" coveredelements="174" complexity="0" loc="201" ncloc="201" packages="2" files="4" classes="4"/>
     <package name="appointments.services">
       <metrics statements="49" coveredstatements="49" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <file name="CreateAppointmentService.ts" path="C:\Users\renan.pinheiro\Desktop\GoStack Bootcamp\gobarber\server\src\modules\appointments\services\CreateAppointmentService.ts">
@@ -58,7 +58,7 @@
       </file>
     </package>
     <package name="users.services">
-      <metrics statements="153" coveredstatements="102" conditionals="13" coveredconditionals="12" methods="5" coveredmethods="4"/>
+      <metrics statements="152" coveredstatements="102" conditionals="13" coveredconditionals="12" methods="5" coveredmethods="4"/>
       <file name="AuthenticateUserService.ts" path="C:\Users\renan.pinheiro\Desktop\GoStack Bootcamp\gobarber\server\src\modules\users\services\AuthenticateUserService.ts">
         <metrics statements="60" coveredstatements="60" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -168,7 +168,7 @@
         <line num="42" count="1" type="stmt"/>
       </file>
       <file name="UpdateUserAvatarService.ts" path="C:\Users\renan.pinheiro\Desktop\GoStack Bootcamp\gobarber\server\src\modules\users\services\UpdateUserAvatarService.ts">
-        <metrics statements="51" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="50" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -219,7 +219,6 @@
         <line num="48" count="0" type="stmt"/>
         <line num="49" count="0" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
       </file>
     </package>
   </project>

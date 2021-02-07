@@ -2,6 +2,7 @@ version: "3"
 
 services:
   postdb:
+    container_name: "gobarber"
     image: postgres
     ports:
       - "5432:5432"

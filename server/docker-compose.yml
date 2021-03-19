@@ -12,3 +12,8 @@ services:
       POSTGRES_DATABASE: gobarber
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: "123456"
+  db-mongo:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - 27017:27017

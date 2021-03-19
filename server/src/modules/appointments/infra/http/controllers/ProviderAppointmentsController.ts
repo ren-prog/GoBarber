@@ -7,7 +7,7 @@ export default class ProviderAppointmentsController {
   public async index(request: Request, response: Response): Promise<Response> {
     const provider_id = request.user.id;
     const { day, month, year } = request.body;
-
+    console.log("provider_id", provider_id);
     const listProviderAppointments = container.resolve(
       ListProviderAppointmentsService
     );

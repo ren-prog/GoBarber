@@ -18,16 +18,16 @@ class ListProviderAppointmentsService {
 
   public async execute({
     provider_id,
-    day,
-    month,
     year,
+    month,
+    day,
   }: IRequest): Promise<Appointment[]> {
     const appointments = await this.appointmentsRepository.findAllInDayFromProvider(
       {
         provider_id,
-        day,
-        month,
         year,
+        month,
+        day,
       }
     );
 

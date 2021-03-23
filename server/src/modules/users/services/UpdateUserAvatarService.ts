@@ -7,7 +7,7 @@ import User from "../infra/typeorm/entities/User";
 import uploadConfig from "@config/upload";
 
 import IUsersRepository from "../repositories/IUsersRepository";
-import IStorageProvider from "@shared/container/providers/storageProvider/models/IStorageProvider";
+import IStorageProvider from "@shared/container/providers/StorageProvider/models/IStorageProvider";
 
 interface IRequestDTO {
   user_id: string;

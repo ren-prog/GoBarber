@@ -24,6 +24,8 @@ interface IUploadConfig {
 const tmpFolder = path.resolve(__dirname, "..", "..", "tmp");
 
 export default {
+  // Ajuste da Aula de ( Upload de arquivos para o Amazon S3 )
+  driver: process.env.STORAGE_DRIVER,
   tmpFolder: tmpFolder,
   uploadsFolder: path.resolve(tmpFolder, "uploads"),
 
